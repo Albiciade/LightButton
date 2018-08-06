@@ -1,5 +1,5 @@
 # LightButton
-Créez des boutons avec Processing avec cette classe simple d'utilisation ne nécessitant aucune librairie.
+Créez des boutons dans Processing avec cette classe simple d'utilisation ne nécessitant aucune librairie.
 
 ## Commencer
 
@@ -19,5 +19,15 @@ Vous pouvez ensuite l'initialiser avec le constructeur de la classe :
 ```
 button = new LightButton(x, y, largeur, hauteur, texte, action);
 ```
+
 Les paramètres x, y, largeur et hauteur sont des nombres réels, des [float]. "texte" et "action" sont des [String], des chaînes de caractères.
 "texte" représente le texte affiché dans votre bouton et "action" la fonction qui doit être exécutée lors d'un clic sur le bouton.
+
+Pour finir, n'oubliez pas d'afficher le bouton via sa méthode display() :
+
+```
+button.display();
+```
+
+## Auteurs
+**Alcibiade Desprez ** - *Développement* - [https://github.com/Albiciade]
