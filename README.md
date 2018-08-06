@@ -1,11 +1,11 @@
 # LightButton
 	Créez des boutons avec Processing avec cette classe simple d'utilisation ne nécessitant aucune librairie.
 
-## Commencer
+# Commencer
 
 Pour commencer, téléchargez simplement le code source et copiez le code nécessaire dans votre projet.
 
-### Création d'un bouton
+# Création d'un bouton
 
 	Un bouton n'est rien de plus qu'un objet, de type LightButton. Ainsi, vous pouvez le déclarer comme objet :
 	
